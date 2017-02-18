@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonTest", "SingletonTest\SingletonTest.csproj", "{032C2350-7150-4F7B-969D-153B0979E8DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "SingletonLib\Singleton.csproj", "{C1EDF847-9738-4DFF-A4FD-4A10DF06DA59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{C1EDF847-9738-4DFF-A4FD-4A10DF06DA59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,3 +8,4 @@
 * Ensure that there is just one instance of a class
   * Access to hardware resources
   * Serial processing (allocation of IDs)
+  * OS-APIs

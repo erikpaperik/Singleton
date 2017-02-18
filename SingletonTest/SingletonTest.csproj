@@ -54,7 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SingletonLib\Singleton.csproj">
+    <ProjectReference Include="..\Singleton\Singleton.csproj">
       <Project>{c1edf847-9738-4dff-a4fd-4a10df06da59}</Project>
       <Name>Singleton</Name>
     </ProjectReference>
