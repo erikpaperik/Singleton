@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Singleton.lib;
 
 namespace Singleton
 {
@@ -10,6 +7,13 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            String aKey = Configuration.getInstance().getValue("aKey");
+            Console.WriteLine($"aKey: {aKey}");
+
+            Configuration.getInstance().setValue("bKey", "1234");
+            String bKey = Configuration.getInstance().getValue("bKey");
+            Console.WriteLine($"bKey: {bKey}");
+            Console.ReadKey();
         }
     }
 }
